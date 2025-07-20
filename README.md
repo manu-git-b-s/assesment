@@ -31,7 +31,7 @@ A modern React application featuring:
 
 ## Deployed URL
 
-[**Live Demo**](https://assesment-9oks.vercel.app/)
+[**Live Demo**](https://assesment-gray.vercel.app/)
 
 <!-- Replace this link with your deployed site URL -->
 
