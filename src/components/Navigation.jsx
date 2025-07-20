@@ -59,7 +59,7 @@ const Navigation = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-white hover:text-slate-300 transition-colors"
+              className=" hover:text-slate-300 transition-colors"
               aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
             >
               {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -77,9 +77,7 @@ const Navigation = () => {
                 to={to}
                 className={({ isActive }) =>
                   `flex items-center space-x-2 w-full px-3 py-2 rounded-lg transition-colors ${
-                    isActive
-                      ? 'bg-white/20 text-white'
-                      : 'text-slate-300 hover:text-white hover:bg-white/10'
+                    isActive ? '' : 'text-gray-300 hover:text-black hover:bg-gray/10'
                   }`
                 }
                 onClick={handleNavClick}
